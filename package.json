@@ -1,6 +1,6 @@
 {
-  "name": "testem",
-  "description": "Test'em 'scripts! Javascript Unit testing made easy.",
+  "name": "testem-fork-no-auto-frameworks",
+  "description": "Fork of Test'em 'scripts with no Automatic Framework Hooks",
   "keywords": [
     "javascript",
     "testing",
@@ -65,7 +65,7 @@
     "sinon": "~1.7.3"
   },
   "bin": {
-    "testem": "./testem.js"
+    "testem-no-auto": "./testem.js"
   },
   "main": "./lib/api.js",
   "bundleDependencies": [

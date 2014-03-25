@@ -201,7 +201,6 @@ function init(){
   })
   socket.on('reconnect', startTests)
   socket.on('start-tests', startTests)
-  initTestFrameworkHooks()
   addListener(window, 'load', initUI)
   setupTestStats()
 }
